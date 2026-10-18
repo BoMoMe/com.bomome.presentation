@@ -1,0 +1,6 @@
+{
+  "name": "Bomome.Presentation.Feel",
+  "references": [ "Bomome.Presentation", "MoreMountains.Tools" ],
+  "defineConstraints": [ "BOMOME_FEEL" ],
+  "autoReferenced": true
+}

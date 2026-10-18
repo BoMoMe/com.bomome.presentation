@@ -1,0 +1,5 @@
+{
+  "name": "Bomome.Presentation",
+  "references": [ "UnityEngine.UI" ],
+  "autoReferenced": true
+}

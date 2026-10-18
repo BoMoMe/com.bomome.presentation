@@ -1,0 +1,7 @@
+{
+  "name": "Bomome.Presentation.Tests",
+  "references": [ "Bomome.Presentation", "UnityEngine.UI" ],
+  "includePlatforms": [ "Editor" ],
+  "optionalUnityReferences": [ "TestAssemblies" ],
+  "autoReferenced": false
+}

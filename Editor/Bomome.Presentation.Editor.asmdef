@@ -1,0 +1,6 @@
+{
+  "name": "Bomome.Presentation.Editor",
+  "references": [ "Bomome.Presentation" ],
+  "includePlatforms": [ "Editor" ],
+  "autoReferenced": true
+}
