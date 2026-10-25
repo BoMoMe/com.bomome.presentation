@@ -1,0 +1,13 @@
+{
+  "name": "Bomome.Presentation.Coffee",
+  "references": [
+    "Bomome.Presentation",
+    "Coffee.UIParticle",
+    "LeanPool",
+    "UnityEngine.UI"
+  ],
+  "defineConstraints": [
+    "BOMOME_COFFEE_REWARD_FLIGHTS"
+  ],
+  "autoReferenced": true
+}

@@ -1,6 +1,9 @@
-# Bomome Presentation (Beta 0.1.0)
+# Bomome Presentation (Beta 0.2.0)
 
 ## Features
+- Concurrent reward flights: independent pooled Coffee effects, profiles, targets,
+  batch completion, visual limits and inspector/direct-call triggers. See
+  [Reward Flights](Documentation~/RewardFlights.md) for setup and usage.
 - FeedbackChannel: an asset identifier and lightweight synchronous dispatch, with
   same-channel recursion protection and development-only hierarchy tracing.
 - FeedbackButtonTransmitter: observes Button.onClick without replacing existing
@@ -43,7 +46,10 @@ ProtoFactory owns the neutral setup example. BattleTroops owns its audio mapping
 clips, skins and gameplay feedback controllers. The UIEffect-to-Feel adapter is
 not part of this extraction.
 
-This package currently uses sibling file references during beta. It is not yet
-published. Replace them with a released repository reference before distribution.
+The package is published at https://github.com/BoMoMe/com.bomome.presentation.git.
+Pin a published revision in consumer manifests; local source references are only
+for development. The optional reward-flight adapter requires Coffee UI Particle,
+LeanPool and BOMOME_COFFEE_REWARD_FLIGHTS on each supported target. Core feedback
+channels do not acquire these dependencies.
 Tests cover channel dispatch, recursion/exception recovery and button lifecycle.
 Integration/device validation is still required for each consumer.
