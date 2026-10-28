@@ -12,6 +12,12 @@
   unsubscribes on disable, and supports an unscaled minimum playback interval.
 - Channel inspector: on-demand saved scene/prefab usage search and loaded mappings.
 
+## FX And Game Juice Guidelines
+See [FX And Game Juice](Documentation~/GameJuice/README.md) for shared design
+standards, authoring/review checklists, research and case studies. These are
+tool-agnostic guidelines, not additional runtime features or a prescribed art style.
+Consumer projects own their tool integration, tuning, visual language and budgets.
+
 Core assembly Bomome.Presentation depends only on Unity and uGUI. It owns no
 wallet, audio mixer, progression, scene policy, saves, singleton or gameplay bus.
 Use these channels for authored presentation, not authoritative gameplay events.
